@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-8 bg-primary text-white">
+        <label class="d-block text-center pt-3">Enter Phone No.</label>
+        <input class="form-control mb-3" type="text" id="number" placeholder="Phone Number"/>
+        <button onclick="getOTP(6,{alphabets:false,specialChars:false,upperCase:false})" class="btn btn-info mb-3 d-block mx-auto" type="button">Get OTP</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <h1 id="result"></h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
